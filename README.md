@@ -1,5 +1,5 @@
 # Joy
-Juega y Aprende / Play and Learn
+Aprende y diviertete! / Learn and have fun!
 URL GITHUB del proyecto : https://github.com/kinghenry90/Joy
 URL GITHUB para sync: https://github.com/kinghenry90/Joy.git
 Autores:
