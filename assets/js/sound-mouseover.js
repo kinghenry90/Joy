@@ -432,3 +432,21 @@ function Nine()
 		}	
 }
 
+function Alphabet() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/alphabet.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("alphabet"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
