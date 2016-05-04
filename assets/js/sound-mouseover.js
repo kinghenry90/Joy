@@ -250,3 +250,185 @@ function Rabbit()
 			}
 		}	
 }
+
+function Zero() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/zero.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("zero"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+function One()
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/one.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("ones"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+
+function Two()
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/two.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("twos"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+function Three() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/three.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("three"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+function Four() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/four.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("four"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+function Five() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/five.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("five"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+function Six() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/six.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("six"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+function Seven() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/seven.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("seven"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+function Eight() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/eight.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("eight"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+function Nine() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/numeros/nine.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("nine"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
