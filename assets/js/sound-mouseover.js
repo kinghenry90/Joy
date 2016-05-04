@@ -71,3 +71,38 @@ function Lion()
 		}	
 }
 
+function Donkey() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/animales/donkey.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("donkey"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+function Duck() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/ingles/animales/duck.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("duck"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
