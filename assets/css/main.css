@@ -1945,6 +1945,7 @@
 		.image img {
 			border-radius: 3px;
 			display: block;
+			margin: 1em;
 		}
 
 		.image.left {
@@ -1974,7 +1975,7 @@
 		}
 
 			.image.fit img {
-				width: 30%;
+				width: 100%;
 			}
 
 /* List */
