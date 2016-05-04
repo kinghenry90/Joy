@@ -1853,7 +1853,7 @@
 		border-radius: 3px;
 		border: solid 2px #fff;
 		margin-bottom: 2em;
-		padding: 1.5em;
+		padding: 1px;
 	}
 
 		.box > :last-child,
@@ -1974,7 +1974,7 @@
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 30%;
 			}
 
 /* List */
