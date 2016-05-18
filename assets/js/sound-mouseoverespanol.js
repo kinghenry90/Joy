@@ -237,3 +237,195 @@ function Vaca()
 			}
 		}	
 }
+function Cero() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/numeros/cero.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("cero"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+function Uno() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/numeros/uno.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("uno"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+function Dos() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/numeros/dos.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("dos"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+function Tres() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/numeros/tres.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("tres"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+function Cuatro() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/numeros/cuatro.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("cuatro"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+function Cinco() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/numeros/cinco.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("cinco"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+function Seis() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/numeros/seis.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("seis"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+function Siete() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/numeros/siete.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("siete"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+function Ocho() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/numeros/ocho.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("ocho"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+function Nueve() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/numeros/nueve.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("nueve"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
+
+
+
+
+function Alfabeto() 
+{
+	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1))
+	{
+		if (document.all)
+		 {
+		  document.all.sound.src = "sounds/espanol/Alfabeto/alfabeto.mp3";
+		 }
+	}
+
+	else {
+			{
+			var audio = document.getElementById("alfabeto"); audio.play(); 
+			audio.play();
+			}
+		}	
+}
