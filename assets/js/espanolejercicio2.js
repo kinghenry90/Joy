@@ -27,12 +27,12 @@ function getScore2(form) {
   }
 
   score = Math.round(score/numQues*100);
-  form.percentage2.value = score + "%";
+  form.percentage.value = score + "%";
 
   var correctAnswers = "";
   for (i=1; i<=numQues; i++) {
     correctAnswers += i + ". " + answers[i-1] + "\r\n";
   }
-  form.solutions2.value = correctAnswers;
+  form.solutions.value = correctAnswers;
 
 }
