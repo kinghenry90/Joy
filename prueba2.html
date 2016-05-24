@@ -1,0 +1,91 @@
+<html><head><title></title>
+<script language="JavaScript">
+<!--
+
+var numQues = 5;
+var numChoi = 3;
+
+var answers = new Array(5);
+answers[0] = "Pedro";
+answers[1] = "navarro";
+answers[2] = "0";
+answers[3] = "asd";
+answers[4] = "asdasd";
+
+function getScore(form) {
+  var score = 0;
+  var currElt;
+  var currSelection;
+
+  for (i=0; i<numQues; i++) {
+    currElt = i*numChoi;
+    for (j=0; j<numChoi; j++) {
+      currSelection = form.elements[currElt + j];
+      if (currSelection.checked) {
+        if (currSelection.value == answers[i]) {
+          score++;
+          break;
+        }
+      }
+    }
+  }
+
+  score = Math.round(score/numQues*100);
+  form.percentage.value = score + "%";
+
+  var correctAnswers = "";
+  for (i=1; i<=numQues; i++) {
+    correctAnswers += i + ". " + answers[i-1] + "\r\n";
+  }
+  form.solutions.value = correctAnswers;
+
+}
+
+// -->
+</script>
+</head>
+
+<body>
+
+<form name="quiz">
+1. Como te llamas<br>
+<input type="radio" name="q1" value="Pedro">Pedro<br>
+<span class="image"><img src="images/ANIMALES/8.png" width="100" height="100" /> <br>  
+<input type="radio" name="q1" value="Juan">Juan<br>
+<span class="image"><img src="images/ANIMALES/8.png" width="100" height="100" /> <br>  
+<input type="radio" name="q1" value="Luis">Luis<br>
+<span class="image"><img src="images/ANIMALES/8.png" width="100" height="100" /> <br>  
+<p>
+
+2. Tu apellido<br>
+<input type="radio" name="q2" value="perez">perez<br>
+<input type="radio" name="q2" value="navarro">navarro<br>
+<input type="radio" name="q2" value="loza">loza<br>
+<p>
+
+3. cuantos amigos tienes<br>
+<input type="radio" name="q3" value="0">0<br>
+<input type="radio" name="q3" value="5">5<br>
+<input type="radio" name="q3" value="3">3<br>
+<p>
+
+4. lsldsa<br>
+<input type="radio" name="q4" value="asd">asd<br>
+<input type="radio" name="q4" value="asd">asd<br>
+<input type="radio" name="q4" value="asd">asd<br>
+<p>
+
+5. asdasdsd<br>
+<input type="radio" name="q5" value="asdads">asdads<br>
+<input type="radio" name="q5" value="asdasd">asdasd<br>
+<input type="radio" name="q5" value="asd">asd<br>
+<p>
+
+<input type="button" value="Get score" onClick="getScore(this.form)">
+<input type="reset" value="Clear"><p>
+Score = <input type=text size=15 name="percentage"><br>
+Correct answers:<br>
+<textarea name="solutions" wrap="virtual" rows="4" cols="40"></textarea>
+</form>
+
+</body></html>
