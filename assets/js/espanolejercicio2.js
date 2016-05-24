@@ -3,12 +3,12 @@ var numQues = 3;
 var numChoi = 3;
 
 var answers = new Array(5);
-answers[0] = "c";
-answers[1] = "b";
+answers[0] = "a";
+answers[1] = "a";
 answers[2] = "a";
 
 
-function getScore(form) {
+function getScore2(form) {
   var score = 0;
   var currElt;
   var currSelection;
@@ -27,12 +27,12 @@ function getScore(form) {
   }
 
   score = Math.round(score/numQues*100);
-  form.percentage.value = score + "%";
+  form.percentage2.value = score + "%";
 
   var correctAnswers = "";
   for (i=1; i<=numQues; i++) {
     correctAnswers += i + ". " + answers[i-1] + "\r\n";
   }
-  form.solutions.value = correctAnswers;
+  form.solutions2.value = correctAnswers;
 
 }
