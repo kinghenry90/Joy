@@ -61,7 +61,8 @@
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Animales</h2>
+							<h2>Ejercicio 1</h2>
+								<h3>Intenta aprender la pronunciación de los animales que se muestran</h3>
 								<p>¡click para escuchar!</p>
 		
 										
@@ -164,15 +165,90 @@
 										<audio id="conejo">
 											<source src="sounds/espanol/animales/conejo.mp3">
 										</audio>
-
-
-
-										
-
-
-										
 									</div>
 							</header>
+						</div>
+					</section>
+					
+					<!-- PREGUNTAS -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Cuestionario</h2>
+								
+							</header>
+							<section class="features">
+								<form name="quiz">
+								1. Escucha la pronunciación y elige qué animal es...<br><br><br><br><br>
+								<audio controls>  
+								<source src="sounds/espanol/animales/perro.mp3" type="audio/mpeg">
+								Your browser does not support the audio element.
+								</audio> <br><br>
+									
+											<div class="inner">
+												<input type="radio" id="demo-priority-low1" name="demo-priority1" value="a">
+												<label for="demo-priority-low1"></label>
+												<img src="images/ANIMALES/11.png" width="100" height="100" />
+											
+												<input type="radio" id="demo-priority-normal1" name="demo-priority1" value="b">
+												<label for="demo-priority-normal1"></label>
+												<img src="images/ANIMALES/14.png" width="100" height="100" />
+											
+												<input type="radio" id="demo-priority-high1" name="demo-priority1" value="c">
+												<label for="demo-priority-high1"></label>
+												<img src="images/ANIMALES/24.png" width="100" height="100" />
+											</div>
+											<br><br><br><br><br>
+											<audio controls>  
+											<source src="sounds/espanol/animales/rana.mp3" type="audio/mpeg">
+											Your browser does not support the audio element.
+											</audio> <br><br>
+
+											<div class="inner">
+												<input type="radio" id="demo-priority-low2" name="demo-priority2" value="a" >
+												<label for="demo-priority-low2"></label>
+												<img src="images/ANIMALES/7.png" width="100" height="100" />
+											
+												<input type="radio" id="demo-priority-normal2" name="demo-priority2" value="b">
+												<label for="demo-priority-normal2"></label>
+												<img src="images/ANIMALES/6.png" width="100" height="100" />
+											
+												<input type="radio" id="demo-priority-high2" name="demo-priority2" value="c">
+												<label for="demo-priority-high2"></label>
+												<img src="images/ANIMALES/16.png" width="100" height="100" />
+											</div>
+											<br><br><br><br>
+											<audio controls>  
+											<source src="sounds/espanol/animales/burro.mp3" type="audio/mpeg">
+											Your browser does not support the audio element.
+											</audio> <br><br>
+
+											<div class="inner">
+												<input type="radio" id="demo-priority-low3" name="demo-priority3" value="a" >
+												<label for="demo-priority-low3"></label>
+												<img src="images/ANIMALES/12.png" width="100" height="100" />
+											
+												<input type="radio" id="demo-priority-normal3" name="demo-priority3" value="b">
+												<label for="demo-priority-normal3"></label>
+												<img src="images/ANIMALES/20.png" width="100" height="100" />
+											
+												<input type="radio" id="demo-priority-high3" name="demo-priority3" value="c">
+												<label for="demo-priority-high3"></label>
+												<img src="images/ANIMALES/19.png" width="100" height="100" />
+											</div>
+											<br><br><br><br><br>
+
+
+											<input type="button" value="Obtener Resultados" onClick="getScore(this.form)">
+											<input type="reset" value="Limpiar"><p>
+											Puntuación = <input type=text size=15 name="percentage"><br>
+											Respuestas Correctas:<br>
+											<textarea name="solutions" wrap="virtual" rows="4" cols="40"></textarea>
+
+									
+								</form>
+								
+							</section>
 						</div>
 					</section>
 
@@ -329,6 +405,7 @@
 			<div id="sounddiv"><bgsound id="sound"></div>
 
 			<!--SCRIPTS-->
+			<script type="text/javascript" src="assets/js/espanolejercicio1.js"></script>
 			<script type="text/javascript" src="assets/js/sound-mouseoverespanol.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
