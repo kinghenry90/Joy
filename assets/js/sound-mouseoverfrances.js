@@ -22,7 +22,7 @@ function One()
 	{
 		if (document.all)
 		 {
-		  document.all.sound.src = "sounds/ingles/numeros/one.mp3";
+		  document.all.sound.src = "sounds/frances/numeros/one.mp3";
 		 }
 	}
 
@@ -41,7 +41,7 @@ function Two()
 	{
 		if (document.all)
 		 {
-		  document.all.sound.src = "sounds/ingles/numeros/two.mp3";
+		  document.all.sound.src = "sounds/frances/numeros/two.mp3";
 		 }
 	}
 
@@ -59,13 +59,13 @@ function Three()
 	{
 		if (document.all)
 		 {
-		  document.all.sound.src = "sounds/ingles/numeros/three.mp3";
+		  document.all.sound.src = "sounds/frances/numeros/three.mp3";
 		 }
 	}
 
 	else {
 			{
-			var audio = document.getElementById("three"); audio.play(); 
+			var audio = document.getElementById("tres"); audio.play(); 
 			audio.play();
 			}
 		}	
@@ -77,7 +77,7 @@ function Four()
 	{
 		if (document.all)
 		 {
-		  document.all.sound.src = "sounds/ingles/numeros/four.mp3";
+		  document.all.sound.src = "sounds/frances/numeros/four.mp3";
 		 }
 	}
 
@@ -95,7 +95,7 @@ function Five()
 	{
 		if (document.all)
 		 {
-		  document.all.sound.src = "sounds/ingles/numeros/five.mp3";
+		  document.all.sound.src = "sounds/frances/numeros/five.mp3";
 		 }
 	}
 
@@ -113,7 +113,7 @@ function Six()
 	{
 		if (document.all)
 		 {
-		  document.all.sound.src = "sounds/ingles/numeros/six.mp3";
+		  document.all.sound.src = "sounds/frances/numeros/six.mp3";
 		 }
 	}
 
@@ -131,7 +131,7 @@ function Seven()
 	{
 		if (document.all)
 		 {
-		  document.all.sound.src = "sounds/ingles/numeros/seven.mp3";
+		  document.all.sound.src = "sounds/frances/numeros/seven.mp3";
 		 }
 	}
 
@@ -149,7 +149,7 @@ function Eight()
 	{
 		if (document.all)
 		 {
-		  document.all.sound.src = "sounds/ingles/numeros/eight.mp3";
+		  document.all.sound.src = "sounds/frances/numeros/eight.mp3";
 		 }
 	}
 
@@ -167,7 +167,7 @@ function Nine()
 	{
 		if (document.all)
 		 {
-		  document.all.sound.src = "sounds/ingles/numeros/nine.mp3";
+		  document.all.sound.src = "sounds/frances/numeros/nine.mp3";
 		 }
 	}
 
