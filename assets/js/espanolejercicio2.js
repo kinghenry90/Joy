@@ -1,7 +1,7 @@
 var numQues2 = 3;
 var numChoi2 = 3;
 
-var answers2 = new Array(5);
+var answers2 = new Array(3);
 answers2[0] = "b";
 answers2[1] = "a";
 answers2[2] = "c";
@@ -17,7 +17,7 @@ function getScore2(form) {
     for (j=0; j<numChoi2; j++) {
       currSelection = form.elements[currElt + j];
       if (currSelection.checked) {
-        if (currSelection.value == answers[i]) {
+        if (currSelection.value == answers2[i]) {
           score++;
           break;
         }

@@ -1,7 +1,7 @@
 var numQues = 3;
 var numChoi = 3;
 
-var answers = new Array(5);
+var answers = new Array(3);
 answers[0] = "c";
 answers[1] = "b";
 answers[2] = "a";
