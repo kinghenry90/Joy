@@ -1,4 +1,3 @@
-
 var numQues = 3;
 var numChoi = 3;
 

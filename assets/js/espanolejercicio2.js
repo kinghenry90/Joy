@@ -1,11 +1,10 @@
+var numQues2 = 3;
+var numChoi2 = 3;
 
-var numQues = 3;
-var numChoi = 3;
-
-var answers = new Array(5);
-answers[0] = "a";
-answers[1] = "a";
-answers[2] = "a";
+var answers2 = new Array(5);
+answers2[0] = "b";
+answers2[1] = "a";
+answers2[2] = "c";
 
 
 function getScore2(form) {
@@ -13,9 +12,9 @@ function getScore2(form) {
   var currElt;
   var currSelection;
 
-  for (i=0; i<numQues; i++) {
-    currElt = i*numChoi;
-    for (j=0; j<numChoi; j++) {
+  for (i=0; i<numQues2; i++) {
+    currElt = i*numChoi2;
+    for (j=0; j<numChoi2; j++) {
       currSelection = form.elements[currElt + j];
       if (currSelection.checked) {
         if (currSelection.value == answers[i]) {
@@ -26,12 +25,12 @@ function getScore2(form) {
     }
   }
 
-  score = Math.round(score/numQues*100);
+  score = Math.round(score/numQues2*100);
   form.percentage.value = score + "%";
 
   var correctAnswers = "";
-  for (i=1; i<=numQues; i++) {
-    correctAnswers += i + ". " + answers[i-1] + "\r\n";
+  for (i=1; i<=numQues2; i++) {
+    correctAnswers += i + ". " + answers2[i-1] + "\r\n";
   }
   form.solutions.value = correctAnswers;
 
